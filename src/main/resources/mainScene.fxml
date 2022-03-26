@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="402.0" prefWidth="549.0" spacing="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.spacelord.scenes.MainSceneController">
+    <VBox alignment="BASELINE_CENTER" style="-fx-border-width:1; -fx-border-style:solid;">
+        <padding>
+            <Insets left="10" top="10" />
+        </padding>
+        <Label text="Chess.pro" />
+        <Button fx:id="mainButton" onAction="#buttonClicked" text="Play!" />
+    </VBox>
+</VBox>
